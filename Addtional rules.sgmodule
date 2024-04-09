@@ -1,5 +1,7 @@
-#!name=Direct Zoom Traffic
-#!desc=Direct all Zoom traffic
+[MITM]
+# MITM 配置项
+hostname = *.zoom.us, *.zoom.com
 
 [Rule]
+# 规则配置项
 PROCESS-NAME, zoom, DIRECT
